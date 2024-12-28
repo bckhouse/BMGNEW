@@ -1,10 +1,14 @@
+
+// File: screens/HomeScreen.js
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import { Text } from 'react-native-ui-lib';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>Welcome to BMG App</Text>
+      <Text text40>Welcome Home</Text>
+      <Text>Your company dashboard will appear here.</Text>
     </View>
   );
 }

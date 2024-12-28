@@ -1,10 +1,14 @@
+
+// File: screens/SettingsScreen.js
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import { Text } from 'react-native-ui-lib';
 
 export default function SettingsScreen() {
   return (
     <View style={styles.container}>
-      <Text>App Settings</Text>
+      <Text text40>Settings</Text>
+      <Text>Configure your preferences here!</Text>
     </View>
   );
 }
